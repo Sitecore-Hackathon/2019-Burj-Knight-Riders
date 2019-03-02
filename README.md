@@ -1,19 +1,13 @@
 ![Hackathon Logo](documentation/images/hackathon.png?raw=true "Hackathon Logo")
 
-# Submission Boilerplate
+# EXM Email Submit Action in Sitecore Forms
 
-Welcome to Sitecore Hackathon 2019.
+This Module is created during Sitecore Hackathon 2019.
 
-The Hackathon site can be found at http://www.sitecorehackathon.org/sitecore-hackathon-2019/
-
-The purpose of this repository is to provide a sample which shows how to structure the Hackathon submissions.
-
-
-## Entry Submission Requirements 
-
-All teams are required to submit the following as part of their entry submission on or before the end of the Hackathon on **Friday March 1st 2019 at 8PM EST**. The modules should be based on [Sitecore 9.1 (Initial Release)](https://dev.sitecore.net/Downloads/Sitecore_Experience_Platform/91/Sitecore_Experience_Platform_91_Initial_Release.aspx).
-
-**Failure to meet any of the requirements will result in automatic disqualification.** Please reach out to any of the organisers or judges if you require any clarification.
+## Authors:
+- Senthilvel Subramanian
+- Nikki Punjabi
+- Ashish Bansal
 
 - Sitecore 9.1 (Initial Release) Module (Module install package)
    - An installation Sitecore Package (`.zip` or `.update`)
