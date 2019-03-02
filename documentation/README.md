@@ -59,7 +59,9 @@ We have created a speak layout and you must properly map first name, last name a
 ![Alt text](/Screenshots/Hackathon04.png?raw=true "Sitecore Hackathon")
 <br>
 As you submit the form you'll see an email at your Inbox. If you have provided any link to an email click on the link. EXM will track the user and show you the result in the Dashboard. <br>
+
 ![Alt text](/Screenshots/Hackathon05.png?raw=true "Sitecore Hackathon")
+
 <br>
 By this Marketers can track the user journey and generate the lead for their website.
 
