@@ -18,7 +18,7 @@ This Module is created during Sitecore Hackathon 2019.
 ## About Create Profile and Trigger EXM Mail using Sitecore Forms
 
 This module is really very important for the marketers who want to generate the leads for the website using Sitecore Forms. In this module, we have extended Sitecore Forms default functionality by creating a contact in the Sitecore and trigger EXM Mail.
-We have extended the submit action functionality to perform following:
+We have extended the submit action functionality to perform following:  
     -	Create Contact – We are creating Sitecore contact using Sitecore Form fields [First Name, Last Name and Email Address] – For the same contact, we can track the activity in Experience Profile.
     -	Trigger EXM Campaign – This is most wanted feature required for the marketers who want to send the pre-defined email template on form submit action, for example, Thank You Template, Order Confirmation template, subscription thank you., etc.
 
