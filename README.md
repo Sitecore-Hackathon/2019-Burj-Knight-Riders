@@ -63,8 +63,5 @@ We have created a speak layout and you must properly map first name, last name a
 
 And now you can test the form.  On submission, you should receive an email. If you have any link which comes back to your site, then it will track the user’s journey.
 
-- Create a 2 – 10 minutes video explaining the module’s functionality (A link to youtube video)
-
-  - What problem was solved
-  - How did you solve it
-  - What is the end result
+## Youtube Link:
+https://youtu.be/8nabFK9ZCGw
