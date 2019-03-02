@@ -4,11 +4,6 @@
 
 This Module is created during Sitecore Hackathon 2019.
 
-## Authors:
-- Senthilvel Subramanian
-- Nikki Punjabi
-- Ashish Bansal
-
 ## Sitecore Hackathon Category
 - Best enhancement to the Sitecore Admin (XP) UI for Content Editors & Marketers
 
@@ -63,5 +58,10 @@ We have created a speak layout and you must properly map first name, last name a
 
 And now you can test the form.  On submission, you should receive an email. If you have any link which comes back to your site, then it will track the user’s journey.
 
-## Youtube Link:
-https://youtu.be/8nabFK9ZCGw
+## YouTube Video:
+[![Sitecore Hackathon Video](http://i3.ytimg.com/vi/3BPf0Uvzbg0/maxresdefault.jpg)](https://www.youtube.com/watch?v=3BPf0Uvzbg0)
+
+## Authors:
+- Senthilvel Subramanian
+- Nikki Punjabi
+- Ashish Bansal
