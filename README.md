@@ -51,10 +51,14 @@ We have created a speak layout and you must properly map first name, last name a
 <br><br>
 5) Rebuild Index <br><br>
 6) Publish Forms
-    - /sitecore/Forms/Hackathon - Sub Items
+    - /sitecore/Forms/Hackathon - With Sub-Items
 <br><br>
 7) Add Proper Email Settings and Publish Item
-	- /sitecore/content/Email/Messages/Hackathon
+	- /sitecore/content/Email/Messages/Hackathon - With Sub-Items
+    <br><br>
+8) Publish Campaign
+    - /sitecore/system/Marketing Control Panel/Campaigns/Emails - with Sub-Items
+    <br><br>
 ![Alt text](/Screenshots/Hackathon04.png?raw=true "Sitecore Hackathon")
 
 And now you can test the form.  On submission, you should receive an email. If you have any link which comes back to your site, then it will track the user’s journey.
