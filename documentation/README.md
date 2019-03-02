@@ -1,72 +1,63 @@
-# Test Commit
 # Documentation
 
-The documentation for this years Hackathon must be provided as a readme in Markdown format as part of your submission. 
-
-You can find a very good reference to Github flavoured markdown reference in [this cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). If you want something a bit more WYSIWYG for editing then could use [StackEdit](https://stackedit.io/app) which provides a more user friendly interface for generating the Markdown code. Those of you who are [VS Code fans](https://code.visualstudio.com/docs/languages/markdown#_markdown-preview) can edit/preview directly in that interface too.
-
-Examples of things to include are the following.
+This Module is created during Sitecore Hackathon 2019.
 
 ## Summary
 
-**Category:** Hackathon Category
+**Category:** Best enhancement to the Sitecore Admin (XP) UI for Content Editors & Marketers
 
-What is the purpose of your module? What problem does it solve and how does it do that?
+## Problem: 
+Marketer want to create a form and want to have an email sending functionality and track the lead of the website for their future interaction.
+    -	But there is no option for Marketers to send EXM Mail without creating the contact in Sitecore, using Sitecore Forms.
+<br><br>
 
 ## Pre-requisites
 
-Does your module rely on other Sitecore modules or frameworks?
-
-- List any dependencies
-- Or other modules that must be installed
-- Or services that must be enabled/configured
+Sitecore 9.1 
 
 ## Installation
 
 Provide detailed instructions on how to install the module, and include screenshots where necessary.
 
-1. Use the Sitecore Installation wizard to install the [package](#link-to-package)
-2. ???
-3. Profit
+⋅⋅* Use the Sitecore Installation wizard to install the [package](#https://github.com/Sitecore-Hackathon/2019-Burj-Knight-Riders/blob/master/SitecorePackage/Create%20Profile%20and%20Trigger%20EXM%20Mail%20using%20Sitecore-0.1.zip)
 
-## Configuration
+## Configuration | Post Installation Steps
 
-How do you configure your module once it is installed? Are there items that need to be updated with settings, or maybe config files need to have keys updated?
+1)	Set Email SMTP for EXM if it is not configured.
+    o	Or more details refer | Custom Email SMTP configuration: http://sitecoresolution.blogspot.com/2018/10/setup-your-first-email-with-sitecore-9-EXM.html
 
-Remember you are using Markdown, you can provide code samples too:
+![Alt text](/Screenshots/Hackathon01.png?raw=true "Sitecore Hackathon")
+<br><br>
+2)	Create EXM Automated Email and provide all the details.
+    o	And make sure you activate the EXM Mail.
+![Alt text](/Screenshots/Hackathon02.png?raw=true "Sitecore Hackathon")
+<br><br>
+3)	Apply Trigger EXM Mail - Action Method to Your Submit Button<br><br>
+4)	Edit Trigger EXM Mail Action with proper Field for First Name, Last Name and Email Address
+![Alt text](/Screenshots/Hackathon03.png?raw=true "Sitecore Hackathon")
+We have created a speak layout and you must properly map first name, last name and email address.
+<br><br>
+5) Rebuild Index <br><br>
+6) Publish Forms
+    - /sitecore/Forms/Hackathon - With Sub-Items
+<br><br>
+7) Add Proper Email Settings and Publish Item
+	- /sitecore/content/Email/Messages/Hackathon - With Sub-Items
+    <br><br>
+8) Publish Campaign
+    - /sitecore/system/Marketing Control Panel/Campaigns/Emails - with Sub-Items
+    <br><br>
 
-```xml
-<?xml version="1.0"?>
-<!--
-  Purpose: Configuration settings for my hackathon module
--->
-<configuration xmlns:patch="http://www.sitecore.net/xmlconfig/">
-  <sitecore>
-    <settings>
-      <setting name="MyModule.Setting" value="Hackathon" />
-    </settings>
-  </sitecore>
-</configuration>
-```
 
 ## Usage
 
-Provide documentation  about your module, how do the users use your module, where are things located, what do icons mean, are there any secret shortcuts etc.
-
-Please include screenshots where necessary. You can add images to the `./images` folder and then link to them from your documentation:
+- Go to the page where you have added the form and submit the data.
+![Alt text](/Screenshots/Hackathon04.png?raw=true "Sitecore Hackathon")
+<br>
+As you submit the form you'll see an email at your Inbox.
 
 ![Hackathon Logo](images/hackathon.png?raw=true "Hackathon Logo")
 
-You can embed images of different formats too:
-
-![Deal With It](images/deal-with-it.gif?raw=true "Deal With It")
-
-And you can embed external images too:
-
-![Random](https://placeimg.com/480/240/any "Random")
-
 ## Video
 
-Please provide a video highlighing your Hackathon module submission and provide a link to the video. Either a [direct link](https://www.youtube.com/watch?v=EpNhxW4pNKk) to the video, upload it to this documentation folder or maybe upload it to Youtube...
-
-[![Sitecore Hackathon Video Embedding Alt Text](https://img.youtube.com/vi/EpNhxW4pNKk/0.jpg)](https://www.youtube.com/watch?v=EpNhxW4pNKk)
+[![Sitecore Hackathon Video](http://i3.ytimg.com/vi/3BPf0Uvzbg0/maxresdefault.jpg)](https://www.youtube.com/watch?v=3BPf0Uvzbg0)
