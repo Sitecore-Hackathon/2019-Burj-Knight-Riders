@@ -10,10 +10,13 @@ This Module is created during Sitecore Hackathon 2019.
 Marketer want to create a form and want to have an email sending functionality and track the lead of the website for their future interaction.
     -	But there is no option for Marketers to send EXM Mail without creating the contact in Sitecore, using Sitecore Forms.
 <br><br>
+## Solution:
+We focused on both the above key problems where marketers can send email of there own choice based on the form behavior and in the background the form lead will be converted into the Sitecore contact, which marketer can further analyze in the experience profile.
+<br><br>
 
 ## Pre-requisites
 
-Sitecore 9.1 
+- Sitecore 9.1 With Xconnect
 
 ## Installation
 
@@ -48,15 +51,12 @@ We have created a speak layout and you must properly map first name, last name a
     - /sitecore/system/Marketing Control Panel/Campaigns/Emails - with Sub-Items
     <br><br>
 
-
 ## Usage
 
-- Go to the page where you have added the form and submit the data.
+- Navigate to the page where you have added the form and submit the data.
 ![Alt text](/Screenshots/Hackathon04.png?raw=true "Sitecore Hackathon")
 <br>
-As you submit the form you'll see an email at your Inbox.
-
-![Hackathon Logo](images/hackathon.png?raw=true "Hackathon Logo")
+As you submit the form you'll see an email at your Inbox. If you have provided any link to an email click on the link. EXM will track the user and show you the result in the Dashboard. By this Marketers can track the user journey and generate the lead for their website.
 
 ## Video
 
